@@ -1,0 +1,45 @@
+.users-view {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .user-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+  }
+  
+  .user-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 10px;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+  }
+  
+  .user-card img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .user-info {
+    margin-top: 10px;
+  }
+  
+  .user-info p {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .user-info a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
